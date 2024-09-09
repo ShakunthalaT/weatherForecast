@@ -1,0 +1,84 @@
+.main-heading {
+    color: blue;
+    font-size: 44px;
+    font-weight: 700;
+    font-family: "Roboto";
+  }
+  
+  @media screen and (min-width: 768px) {
+    .main-heading {
+      font-size: 46px;
+    }
+  }
+  
+  .main-container {
+    background-color: #64748b;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .input {
+    height: 40px;
+    border: none;
+    outline: none;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: "Roboto";
+    text-align: center;
+    padding-left: 5px;
+  }
+  
+  .form {
+    width: 245px;
+    max-width: 90%;
+    display: flex;
+    background-color:#fff;
+    border-radius: 8px;
+  }
+  .button {
+    background-color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+  }
+  .location {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 5px;
+    font-family: "Roboto";
+    text-align: center;
+  }
+  .date {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 5px;
+    font-family: "Roboto";
+  }
+  
+  .time {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 5px;
+    font-family: "Roboto";
+  }
+  
+  .search {
+    width: 30px;
+  }
+  
+  .temp {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+  }
+  .speed {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+  }
+  

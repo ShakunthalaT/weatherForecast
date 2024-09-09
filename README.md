@@ -1,70 +1,72 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+## npm start  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Title
+   create an optimised cities table and a weather forecast web application using React, and TypeScript(optional).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Objective
+  we will create an optimised cities table and a weather forecast web application using React, and TypeScript(optional).
 
-### `npm test`
+## Tech Stack
+    React, and TypeScript(optional).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Completion Instructions
 
-### `npm run build`
+### Functionality
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Must Have
+     
+     Display Cities in a table:
+    Show all cities in a table format with infinite scroll (use this API to get the city data: https://public.opendatasoft.com/explore/dataset/geonames-all-cities-with-a-population-1000/api/?disjunctive.cou_name_en&sort=name).
+    The table should have columns for city name, country, timezone, etc.
+    Implement search as you type for this table. Utilise an autocomplete feature to suggest possible locations as users type.
+    Implement filter and sorting for each column
+    Clicking on the city name should take you to the weather page for this city
+    Right-click on the city name and opening in the new tab should also open the weather page for the city but in the new tab.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    Weather page:
+    You can reach this page by clicking on the city name in the table section as mentioned in the previous section.
+    Use https://openweathermap.org free API to display weather on this page
 
-### `npm run eject`
+#### Nice to Have
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    Utilize the preferred stack, such as Next.js for the frontend framework, MST (MobX State Tree) for state management, and Tailwind CSS for styling.
+    Implement geolocation to automatically detect and display the weather for the user's current location.
+    Maintain history of viewed locations' weather.
+    Provide options to switch between different units of measurement (e.g., Celsius/Fahrenheit, metric/imperial).
+    Add a feature to save favourite locations for quick access.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Guidelines to develop a project
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### Must Have
 
-## Learn More
+    Show all cities in a table format with infinite scroll (use this API to get the city data: https://public.opendatasoft.com/explore/dataset/geonames-all-cities-with-a-population-1000/api/?disjunctive.cou_name_en&sort=name).
+   The table should have columns for city name, country, timezone, etc.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Submission Instructions
 
-### Code Splitting
+#### Must Have
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    Create a GitHub repository for your project.
+    Document any setup instructions or prerequisites in a README.md file.
+    Ensure that your code is well-documented and follows best practices.
+    Test your application thoroughly to ensure it works as expected.
+    Deploy your application on a hosting server.
+    Submit the GitHub repository link for evaluation.
+    https://forms.gle/Wgi6tNiAU7Tbycs4A
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### APIs
 
-### Making a Progressive Web App
+    ** https://public.opendatasoft.com/explore/dataset/geonames-all-cities-with-a-population-1000/api/?disjunctive.cou_name_en&sort=name
+    **  https://openweathermap.org
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Third-party packages
+  ** npm install react-router-dom    
+  ** npm install react-icons      
+  ** npm install react-loader-spinner

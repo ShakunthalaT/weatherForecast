@@ -1,0 +1,57 @@
+.city-name-container {
+    width: 450px;
+  }
+  
+  .city-list {
+    list-style-type: none;
+    width: 1146px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .table-column {
+    width: 250px;
+  }
+  .link{
+    text-decoration: none;
+  }
+  
+ 
+.city-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #f1f5f9;
+    padding-left: 72px;
+    width: 280px;
+  }
+  
+  .country-name {
+    color: #007bff;
+  }
+
+  .text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 68px;
+    width:100%;
+    max-width: 650px;
+}
+  
+ 
+  
+  .timezone {
+    color: #28a745;
+    padding-left: 18px;
+  }
+  .time-view{
+    margin-left: 15%;
+    max-width: 450px;
+  }
